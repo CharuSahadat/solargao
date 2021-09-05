@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document by Charu */
+
+@media screen and (max-width: 1139px){
+
+/*Main Nav Starts*/
+.main_nav_wrapper{background-image:none !important}
+.main_nav{width:96% !important}
+.main_nav ul{margin:0; display:none}
+.main_nav ul li a{background-color:#5b8ad5; line-height:normal}
+.main_nav ul li a:hover{background-color:#5b8ad5; color:#ccc}
+.main_nav ul li ul{margin:0; width:100%; display:none; position:relative; border:none}
+.main_nav ul li ul li ul{margin:0; display:none; position:relative; border:none;}
+.main_nav ul li{width:100%; display:block; clear:both}
+.main_nav ul li ul li{width:100%; display:block; clear:both; border:none}
+.main_nav ul li ul li:hover ul{left:0} 
+.main_nav ul li ul li ul li{width:100%; display:block; clear:both; border:none}
+.main_nav ul li a{margin:0; padding:10px 10px; width:100%; border-right:none; border-bottom:1px solid #fff}
+.main_nav ul li ul li a{padding:10px 10px 10px 25px; width:100%; border:none; float:left; clear:both; background-color:#ebebeb; color:#424242; line-height:normal}
+.main_nav ul li ul li a:hover{background-color:#fff; color:#424242}
+.main_nav ul li ul li ul li a{padding:8px 10px 8px 50px; width:100%; border:none; float:left; clear:both; background-color:#ebebeb; color:#424242}
+.main_nav ul li ul li ul li a:hover{background-color:#fff}
+#pull{margin:15px 0px; width:30px; height:30px; display:block !important; font-size:14px; color:#900; font-weight:bold; text-align:right; float:right; outline:none}	
+#pull img{padding:10px; background-color:#5b8ad5; float:right; display:block; clear:both}
+.selected{color:#fff !important}
+.selected:hover{color:#ccc !important}
+.search{margin-top:0px}
+.search input[type=text]{padding:0px 13px; width:87%; height:25px; font-size:14px; font-weight:bold; color:#000; background-color:#ebebeb; border:0; float:left}
+.float_right{padding:5px 0px; float:right !important; background-color:#ebebeb}
+
+/*Header Starts*/
+.header .social_icons ul li{margin:41px 0 0 6px;}
+}
+
+@media screen and (max-width: 1139px){
+.logo{width:290px; max-width:100%; height:auto}
+.header .social_icons{margin-top:20px}
+.header .social_icons ul{padding:5px 0px; width:100%; border-top:1px solid #ccc; border-bottom:1px solid #ccc; float:left}
+.header .social_icons ul li{margin:0px 0 0 6px;}
+.div_top{margin-top:0px}
+#wowslider-container1{display:none}
+.services_panel{margin-bottom:15px}
+.info_panel{margin-bottom:15px; overflow:hidden}
+.inner_div{margin-top:70px !important; overflow:visible !important}
+.main_nav_wrapper{margin-bottom:10px}
+.quick_link{margin-bottom:15px}
+.google_map{display:none}
+.footer_bottom span{display:none}
+.services_panel h1{font-size:16px; text-indent:45px}
+.news_events{display:inline-block}
+.news_events h1{font-size:16px; text-indent:45px}
+}
+
+@media screen and (max-width: 650px){
+#overlay{display:none}
+#lightbox{display:none}
+.ph_img img{display:none}
+}
+
+
